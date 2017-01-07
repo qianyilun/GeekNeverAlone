@@ -1,0 +1,14 @@
+body{
+	background-color: #0000A3;
+}
+
+p#title{
+	text-align: center;
+	color: red;
+	font-size: 300%;
+}
+
+div#pic{
+	text-align: center;
+	
+}

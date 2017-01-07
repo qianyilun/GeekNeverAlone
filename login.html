@@ -1,0 +1,30 @@
+<html>  
+<head>  
+    <title>Login</title>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    <script type="text/javascript" src= "loginDemo.js">  </script>  
+</head>  
+  
+<body bgcolor="#1E81C2" onload="javascript:focusOnUsername();" >  
+     <form  action="ok.html" name="loginForm" >  
+     <div  id="loginFormMain">  
+         <table  style="width:468px;height:262px;background-color: gray;text-align: center;">  
+              <tr>  
+                 <th colspan="2" align="center" >Login in</th>  
+              </tr>  
+              <tr>  
+                  <td>username:<input type="text" style="width: 200px;height: 30px;"  id="username"></td>  
+              </tr>  
+              <tr>  
+                  <td>password:<input type="password"  style="width: 200px;height: 30px;"  id="password"></td>  
+              </tr>  
+              <tr>  
+                  <td align="center" ><input  formmethod="post" type="submit" style="cursor: pointer;font-style: inherit;" name="submit"  onclick="return checkLogin();" value="login in" >
+
+                      <input type="reset"  style="cursor: pointer;" name=reset  value="reset"></td>  
+              </tr>  
+         </table>  
+     </div>  
+      </form>  
+</body>  
+</html>  
