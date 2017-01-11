@@ -1,2 +1,0 @@
-# GeekNeverAlone
-Personal Project
