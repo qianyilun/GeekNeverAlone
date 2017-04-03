@@ -6,21 +6,21 @@
 
 /*
 * 1. Simple request
-*   index.html was opened in the web browser, and shows nicely.
+*   index.html was opened in the web browser, and was showed clearly and nicely.
 *
 * 2. Simple request in subdirectory
-*   sub.html was requested in the web browser, and shows nicely.
+*   sub.html was requested in the web browser, and was showed gracefully.
 *
 * 3. Object not found
-*   browser shows "404 page not found" error
+*   The browser shows "404 page not found" error.
 *
 * 4. Basic MIME type handling
-*   chrome browser begin to download the gif/jpg files automatically
-*   differently, IE browser shows pictures
+*   The chrome browser begins to download the gif/jpg files automatically
+*   differently, The IE browser shows pictures.
 *
 * 5. Concurrency
-*   multiple requests can be done concurrently.
-*   there are 10 archive.zip files and 10 wget-log files created automatically in the directory
+*   The multiple requests can be done concurrently.
+*   There are 10 archive.zip files and 10 wget-log files created automatically in the directory
 *    after running ./test5
 *
 */
